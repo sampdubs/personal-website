@@ -20,10 +20,11 @@ export const Project = ({ className, image, description, title }: ProjectProps) 
                     src={image}
                     alt=""
                     className={styles['project-img']}
+                    width="400"
                 />
                 <div className={styles['project-text']}>
                     <h1>{title}</h1>
-                    <p>{description}</p></div></div>
+                    <p className={styles['project-description']}>{description}</p></div></div>
         </div>
     );
 };
