@@ -1,0 +1,16 @@
+.root {}
+
+.project-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+.project-text {
+    padding: 13px;
+}
+
+.project-img {}
