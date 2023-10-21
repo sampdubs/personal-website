@@ -16,12 +16,13 @@ export const Project = ({ className, image, description, title }: ProjectProps) 
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles['project-div']}>
-                <img
-                    src={image}
-                    alt=""
-                    className={styles['project-img']}
-                    width="400"
-                />
+                <div className={styles['image-wrapper']}>
+                    <img
+                        src={image}
+                        alt=""
+                        className={styles['project-img']}
+                    />
+                </div>
                 <div className={styles['project-text']}>
                     <h1>{title}</h1>
                     <p className={styles['project-description']}>{description}</p></div></div>

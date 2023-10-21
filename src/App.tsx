@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import styles from './App.module.scss';
 import { Project } from './components/project/project';
 
 
 function App() {
-    const [count, setCount] = useState(0);
     const projects = [
         {
             title: "PortaVax",
