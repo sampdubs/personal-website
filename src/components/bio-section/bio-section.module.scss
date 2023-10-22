@@ -27,6 +27,7 @@
     padding: 13px;
     text-align: start;
     font-weight: 500;
+    display: flex;
 }
 
 .project-img {
@@ -38,13 +39,26 @@
 .project-description {
     text-align: start;
     direction: ltr;
+    display: block;
+    flex-shrink: 1;
+    align-self: center;
 }
 
 .image-wrapper {
     width: 400px;
-    height: 350px;
     display: flex;
     min-width: 400px;
     align-items: center;
     justify-content: center;
+}
+
+.bio-text-container {
+    display: block;
+    grid-auto-flow: row;
+    grid-template-rows: 2fr;
+    grid-template-columns: 2fr;
+    margin-left: 20px;
+    align-items: baseline;
+    align-content: center;
+    justify-content: end;
 }

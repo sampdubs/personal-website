@@ -1,5 +1,6 @@
 import styles from './App.module.scss';
 import { Project } from './components/project/project';
+import { BioSection } from './components/bio-section/bio-section';
 
 
 function App() {
@@ -38,9 +39,11 @@ function App() {
 
     return (
         <div className={styles.App}>
+            <h1 className={styles['big-intro']}>I’m a Stanford student studying Computer Science and Math.</h1>
+            <BioSection />
             {projects.map((project, i) =>
                 <Project image={project.image} title={project.title} description={project.description} />
-                )
+            )
             }
             {/* <Project image="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="Project Name" /> */}
         </div>
