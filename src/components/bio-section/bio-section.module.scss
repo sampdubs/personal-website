@@ -34,6 +34,7 @@
     display: block;
     max-width: 100%;
     max-height: 100%;
+    box-shadow: 3.41px 3.66px 10px -3px black;
 }
 
 .project-description {
@@ -61,4 +62,7 @@
     align-items: baseline;
     align-content: center;
     justify-content: end;
+    text-align: start;
+    direction: ltr;
+    padding-right: 16px;
 }

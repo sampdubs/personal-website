@@ -13,13 +13,6 @@ export const BioSection = ({ className }: BioSectionProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles['project-div']}>
-                <div className={styles['image-wrapper']}>
-                    <img
-                        src="/src/assets/Headshot.jpeg"
-                        alt=""
-                        className={styles['project-img']}
-                    />
-                </div>
                 <div className={styles['bio-text-container']}>
                     <h2>About me</h2>
                     <p className={styles['project-description']}>
@@ -27,7 +20,15 @@ export const BioSection = ({ className }: BioSectionProps) => {
                     <h3>Education and Experience</h3>
                     <p className={styles['project-description']}>
                         In high school, I participated in dual enrollment at Georgia Tech, where I took Linear Algebra, Multivariable Calculus, and Object Oriented Programming. These classes reinforced that I was interested in CS and math. Currently at Stanford, I am taking a math theory of CS class in Fall quarter, and plan to continue to take CS classes through Winter and Spring quarters.<br />
-                        Outside of school, I gained much programming experience through my robotics team, where I was the Electrical and Programming lead and subsequently Head of Engineering. In these roles, I learned how to coordinate larger projects and handle many moving parts. I participated in an internship with the CDC that used natural language processing (NLP) to investigate and find connections in medical publications. I also took on many personal projects to explore programming and teach myself more. You can explore some of these below!</p></div></div>
+                        Outside of school, I gained much programming experience through my robotics team, where I was the Electrical and Programming lead and subsequently Head of Engineering. In these roles, I learned how to coordinate larger projects and handle many moving parts. I participated in an internship with the CDC that used natural language processing (NLP) to investigate and find connections in medical publications. I also took on many personal projects to explore programming and teach myself more. You can explore some of these below!</p></div>
+                <div className={styles['image-wrapper']}>
+                    <img
+                        src="/src/assets/Headshot.jpeg"
+                        alt=""
+                        className={styles['project-img']}
+                    />
+                </div>
+            </div>
         </div>
     );
 };
