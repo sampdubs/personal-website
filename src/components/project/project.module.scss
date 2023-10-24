@@ -12,6 +12,7 @@
     background-attachment: scroll;
     background-origin: padding-box;
     background-clip: border-box;
+    margin: 10px;
 }
 
 .project-div {
@@ -24,9 +25,11 @@
 }
 
 .project-text {
-    padding: 13px;
+    padding: 16px;
     text-align: start;
     font-weight: 500;
+    margin-right: 0px;
+    margin-left: 16px;
 }
 
 .project-img {
@@ -40,13 +43,14 @@
 .project-description {
     text-align: start;
     direction: ltr;
+    margin: 0px;
 }
 
 .image-wrapper {
-    width: 400px;
+    width: 420px;
     height: 350px;
     display: flex;
-    min-width: 400px;
+    min-width: 420px;
     align-items: center;
     justify-content: center;
 }

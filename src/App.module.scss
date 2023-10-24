@@ -62,8 +62,8 @@
 }
 
 .big-intro {
-    margin: 0px 0px 0px 30%;
-    text-align: end;
+    margin: 0px 0px 0px 10%;
+    text-align: start;
     font-weight: 600;
     font-size: 6em;
     display: block;
@@ -71,4 +71,16 @@
     padding-left: 0%;
     direction: ltr;
     padding-bottom: 16px;
+    width: 80%;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar {
+    display: flex;
 }

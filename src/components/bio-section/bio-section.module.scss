@@ -12,6 +12,7 @@
     background-attachment: scroll;
     background-origin: padding-box;
     background-clip: border-box;
+    margin-top: 4em;
 }
 
 .project-div {
@@ -35,6 +36,7 @@
     max-width: 100%;
     max-height: 100%;
     box-shadow: 3.41px 3.66px 10px -3px black;
+    border-radius: 4px;
 }
 
 .project-description {
@@ -51,6 +53,7 @@
     min-width: 400px;
     align-items: center;
     justify-content: center;
+    padding: 10px 0px 10px 10px;
 }
 
 .bio-text-container {

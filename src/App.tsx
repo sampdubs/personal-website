@@ -8,7 +8,7 @@ function App() {
         {
             title: "PortaVax",
             description: "At the Georgia Governor's Honors Program, I worked with my small group to design, build, and program an autonomous vehicle for last-mile vaccine delivery. The challenges included power, for which we used a solar panel and LiFePO4 battery, temperature control, for which we modeled and decided on a vacuum-insulated system with a Peltier cooler, and object avoidance, for which we used ultrasonic sensors and programming. Over the three weeks we had to build, I helped with the temperature and power modeling and led the programming and much of the fabrication efforts.",
-            image: "/src/assets/portavax.jpg"
+            image: "/src/assets/portavax.png"
         },
         {
             title: "Zoom To Class",
@@ -39,7 +39,9 @@ function App() {
 
     return (
         <div className={styles.App}>
-            <h1 className={styles['big-intro']}>I’m a Stanford student studying Computer Science and Math.</h1>
+            <div className={styles['header-container']}>
+                <h1 className={styles['big-intro']}>I am a Stanford student studying Computer Science and Math.</h1>
+            </div>
             <BioSection />
             {projects.map((project, i) =>
                 <Project image={project.image} title={project.title} description={project.description} />
