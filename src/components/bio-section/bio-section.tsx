@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './bio-section.module.scss';
+import headshotUrl from "/src/assets/Headshot.jpeg";
 
 export interface BioSectionProps {
     className?: string;
@@ -23,7 +24,7 @@ export const BioSection = ({ className }: BioSectionProps) => {
                         Outside of school, I worked as the Electrical and Programming lead in my robotics club, then rose to Head of Engineering in my senior year. I gained valuable programming experience and learned how to coordinate larger projects and handle many moving parts. I also interned with the CDC, where I used natural language processing (NLP) to investigate and find connections in medical publications. I also took on many personal projects to teach myself more. You can check out some of these below!</p></div>
                 <div className={styles['image-wrapper']}>
                     <img
-                        src="/src/assets/Headshot.jpeg"
+                        src={headshotUrl}
                         alt=""
                         className={styles['project-img']}
                     />
