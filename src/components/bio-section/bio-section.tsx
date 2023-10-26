@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import styles from './bio-section.module.scss';
-import headshotUrl from "/src/assets/Headshot.jpeg";
+import headshotUrl from "../../assets/Headshot.jpeg";
 
 export interface BioSectionProps {
     className?: string;

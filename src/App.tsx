@@ -1,12 +1,12 @@
 import styles from './App.module.scss';
 import { Project } from './components/project/project';
 import { BioSection } from './components/bio-section/bio-section';
-import portaVaxUrl from "/src/assets/portavax.png";
-import cacUrl from "/src/assets/CAC.jpg";
-import mmwrUrl from "/src/assets/mmwr.png";
-import gunUrl from "/src/assets/Gun analysis.png";
-import loktUrl from "/src/assets/Lokt.png";
-import stockUrl from "/src/assets/Stock bot.png";
+import portaVaxUrl from "./assets/portavax.png";
+import cacUrl from "./assets/CAC.jpg";
+import mmwrUrl from "./assets/mmwr.png";
+import gunUrl from "./assets/Gun analysis.png";
+import loktUrl from "./assets/Lokt.png";
+import stockUrl from "./assets/Stock bot.png";
 
 
 function App() {
